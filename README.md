@@ -1,2 +1,2 @@
-# Kreative-Kutz
-Deploy EECS 493 Project
+# Barbershop
+EECS 493 Final Project

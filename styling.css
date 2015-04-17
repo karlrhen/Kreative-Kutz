@@ -1,0 +1,31 @@
+.jumbotron {
+	background-image: url("images/barbershop.png");
+}
+
+.jumbotron h1{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.jumbotron h2{
+	float: right;
+	color: #FFFFFF;
+}
+
+.form-control{
+	size: 50%;
+}
+
+#bannerPic{
+	width: 100%;
+	/* -webkit-filter: opacity(.6);*/
+}
+
+.barber{
+	width: 25%;
+}
+
+h3{
+	text-align: center;
+	font-size: 1.3em;
+}

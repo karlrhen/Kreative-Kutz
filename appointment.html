@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KUTZ! Scheduler</title>
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body>
+    <div class ="container">
+        <img id="bannerPic" src="images/barbershop.png"/>
+        <ul class="nav nav-tabs nav-justified">
+            <li> 
+                <a href="appointment.html"> Schedule Appointment </a> 
+            </li>
+            <li> 
+                <a href="barbers.html"> Meet the Barbers </a> 
+            </li>              
+            <li> 
+                <a href="walkins.html"> Walk-Ins </a> 
+            </li>     
+        </ul>
+    </div>
+    <h3> New Appointment </h3>
+    <form class = "" action="appointment.php" method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input class="form-control" type="text" name="firstname" id="fName" placeholder="First Name"><br>
+            <label for="cell">Cell Number</label>
+            <input class="form-control" size="30" type="tel" name="cell" id="cellNum" placeholder="000-000-0000"><br>
+            <label for="barbers">Select a Barber</label>
+            <select class="form-control" name="barbers" id="barBer">
+                <option value="" selected disabled>Please select</option>
+                <option value="Joey Harks">Joey Harks</option>
+                <option value="Jason Williams">Jason Williams</option>
+                <option value="Stephon Lyles">Stephon Lyles</option>
+            </select><br>
+            <label for="days">Which Day this Week?</label>
+            <select class="form-control" name="days" id="weekDay">
+                <option value="" selected disabled>Please select</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+            </select><br>
+        </div>
+    	<button type="submit" name="submit" value="submit"> Submit </button>
+    </form>
+</body>
+</html>
